@@ -1,0 +1,58 @@
+
+.button{
+  display: grid;
+  grid-template-columns: repeat(5,minmax(40px,100px));
+  gap: 10px;
+  text-align: center;
+  justify-content: center;
+  border: 5px solid black;
+}
+.parent{
+  margin-top: 100px;
+  display: block;
+  justify-content: center;
+  text-align: center;
+  width:100%;
+
+}
+.display{
+  margin-bottom: 10px;
+  text-align: end;
+  /* border: none; */
+  width: 100%;
+  font-size: 25px;
+  font-weight: bold;
+  background-color:#404E63;
+  box-shadow: #343434;
+  color: white;
+  height:50px;
+}
+
+.button input{
+  background-color:#79716B;
+  height:40px;
+  border: none;
+}
+.button .btn{
+  background-color:black;
+  color:white;
+}
+
+
+body{
+  width:fit-content;
+  margin: auto;
+  background-color:#262322;
+  /* border: 1px solid black; */
+
+}
+
+
+.btn-n:hover{
+  background-color:#3b3b3b;
+  color:white;
+}
+.btn-n1:hover{
+  background-color:#343434;
+  color:white;
+}

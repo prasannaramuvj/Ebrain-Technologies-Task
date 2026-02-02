@@ -1,0 +1,15 @@
+.container-fluid a i{
+  font-size: 50px;
+}
+#inpserach{
+  border-radius: 20px;
+  outline: none;
+  border:1px solid rgb(168, 168, 172);
+}
+#icon,#icon1,#icon2{
+  font-size: 40px;
+}
+
+ul li a i:hover{
+  color: red;
+}

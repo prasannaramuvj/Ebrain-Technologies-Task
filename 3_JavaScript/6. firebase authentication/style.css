@@ -1,0 +1,54 @@
+*{
+  color: white;
+}
+
+.center-form{
+  margin:100px auto;
+  width:400px;
+  height:450px;
+  background-color:rgba(255,255,255,0.027);
+  backdrop-filter: blur(10px);
+
+  
+}
+.input-form{
+  margin: 10px 0;
+}
+.btn-grp {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+
+}
+
+.btn-grp button{
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  box-shadow: 3px 3px 3px 3px;
+  margin-bottom: 10px;
+}
+body{
+  background-image: url('img/pexels-pixabay-531880.jpg');
+  font-weight: bold;
+  
+}
+.link{
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  color: #fff;
+}
+.fill{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.4);
+  opacity:0.8;
+}
+
+.error{
+  color: red;
+}

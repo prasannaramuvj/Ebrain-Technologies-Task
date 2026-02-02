@@ -1,0 +1,125 @@
+
+
+#face-logo{
+  width: 70px;
+  height:70px;
+}
+#face-img {
+  width: 700px;
+
+}
+.full{
+  display: flex;
+  width: 100%;
+}
+#left-container{
+ flex-basis: 60%;
+border-right: 3px solid  lightgray;
+  
+}
+
+
+.color-text{
+  color:#1760e9;
+  font-weight: bold;
+  font-size: 40px;
+  white-space: nowrap;
+}
+
+
+.left-wrapper{
+  display: grid;
+  grid-template-areas: 'facebook-logo  facebook-img'
+                       'text-msg      facebook-img';
+ grid-template-columns: 50px 3fr;
+  grid-template-rows: auto auto;
+  gap:10px;
+  align-items: center;
+}
+.facebook-logo{
+  grid-area: facebook-logo;
+}
+.facebook-img{
+  grid-area:  facebook-img;
+}
+.text-msg{
+  grid-area: text-msg;
+
+}
+.text{
+  color: black;
+  font-weight: bold;
+  font-size: 40px;
+
+}
+.text-msg{
+  margin-top: 200px;
+  text-transform: uppercase;
+}
+.container{
+  margin: 5px 15px
+}
+#right-container{
+  flex-basis: 40%;
+  display: flex;
+  flex-direction: column;
+   justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  /* border: 1px solid black; */
+  padding-left:50px;
+}
+#full-con{
+  display: flex;
+  width: 100%;
+  padding: 40px;
+}
+body{
+    border-bottom: 3px solid gray;
+
+}
+#face-logo1{
+  width: 150px;
+  float: middle;
+}
+.right-img{
+  margin-bottom: 40px;
+}
+.input-grp{
+  margin-bottom: 10px;
+}
+.input-grp button{
+  border-radius: 20px;
+  border:1px solid gray;
+  outline: none;
+}
+#btn2:hover{
+  background-color: #d6d7d7;
+}
+.modal-inform{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.modal-inform img{
+  width: 100px;
+}
+.form-inp{
+  margin-bottom: 10px;
+}
+#forgot-link{
+  text-decoration: none;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.error{
+  color: red;
+}
+.modal-footer button{
+  margin-bottom: 40px;
+}

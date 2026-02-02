@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-danger">
+
+  <div class="container height bg-danger d-flex justify-content-center align-items-center" id="mobilenumber">
+    <div class="">
+      <div class="card text-center p-2">
+        <h6 class="mt-5">Please enter your
+        <br> Mobile Number </h6>
+        <!-- <span>A code has been sent to number</span> -->
+        <div class="otp d-flex flex-row justify-content-center mt-2" id="otp1">
+          <input type="number" maxlength="10" class="form-control rounded text-center m-2" id="phonenumber">
+        </div>
+        <div id="recaptcha-container"></div>
+        <div class="mt-4">
+          <button class="btn btn-danger px-4 rounded" type="button" id="btn1">Submit</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+<!-- //---------------------------------------------------------------------------------------------// -->
+  <div class="container height bg-danger d-flex justify-content-center align-items-center" id="otpnumber">
+    <div class="">
+      <div class="card text-center p-2">
+        <h6 class="mt-5">Please enter one time passsowrd
+        <br> to verify your account </h6>
+        <span>A code has been sent to number</span>
+        <div class="otp d-flex flex-row justify-content-center mt-2" id="otp">
+          <input type="text" maxlength="1" class="form-control rounded text-center m-2" id="one">
+          <input type="text" maxlength="1" class="form-control rounded m-2 text-center" id="two">
+          <input type="text" maxlength="1" class="form-control rounded m-2 text-center" id="three">
+          <input type="text" maxlength="1" class="form-control rounded m-2 text-center" id="four">
+          <input type="text" maxlength="1" class="form-control rounded m-2 text-center" id="five">
+          <input type="text" maxlength="1" class="form-control rounded m-2 text-center" id="six">
+        </div>
+        <div class="mt-4">
+          <button class="btn btn-danger px-4 rounded" type="button" id="btn">Validate</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script src="script.js" type="module"></script>
+</html>
