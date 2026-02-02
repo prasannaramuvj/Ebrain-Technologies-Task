@@ -1,0 +1,56 @@
+.masthead{
+    position :relative;
+    margin-bottom: 3rem;
+    padding-top: calc(8rem + 57px);
+    padding-bottom: 8rem;
+    background: no-repeat center center;
+    background-size: cover;
+    color:white;
+    background-attachment:scroll;
+    text-align: center;
+}
+
+
+.link1{
+    text-decoration: none;
+    color: black;
+}
+.link1 h1{
+    font-weight: bold;
+}
+.nav{
+    background-color:transparent;
+ }
+ .para p{
+    margin-bottom: 2rem;
+    color: #212529;
+ }
+ .masthead::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6); 
+    z-index: 0;
+}
+.masthead .container {
+    position: relative;
+    z-index: 1;
+}
+
+
+
+#mainnav {
+    background: transparent;
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    z-index: 2;
+}
+#mainnav .nav-link {
+    color: white;
+}
+

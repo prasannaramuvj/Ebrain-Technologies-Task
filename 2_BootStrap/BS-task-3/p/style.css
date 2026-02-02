@@ -1,0 +1,100 @@
+.masthead{
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url(../assets/img/bg-masthead.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 16rem;
+    padding-bottom: 16rem;
+    background-size: cover;
+    width:100%;
+    background-attachment: scroll;
+    position: relative;
+}
+*{
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media (max-width: 992px) {
+    #mainnav {
+        background-color: white;
+    }
+}
+
+@media (min-width: 992px) {
+  #mainnav .nav-link {
+    color: white;
+  }
+  #mainnav .navbar-brand{
+    color: white;
+  }
+}
+#about{
+  background-color:#f4623a;
+}
+.btn1{
+  background-color:#f4623a;
+  color: aliceblue;
+}
+.page-section{
+  padding: 8rem 0;
+}
+#icon .container div i{
+  font-size: 30px;
+}
+.portfolio-box{
+position: relative;
+display: block;
+}
+.portfolio-box:hover .portfolio-box-caption{
+  opacity: 1;
+}
+
+ .portfolio-box-caption{
+  opacity: 0;
+  position: absolute;
+  background: rgba(244, 98, 58, 0.9);
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  top:0%;
+  left:0%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  transition: opacity 0.25 ease;
+  color: white;
+ }
+ #about1{
+  background-color:rgba(0,0,0,0.9);
+ }
+ a.btn{
+padding:0px 60px;
+ }
+ #mainNav {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    transition: background-color 0.2s ease;
+}
+.divider{
+   border-top: 3px solid #f4623a;
+    height: 0.2rem;
+    max-width: 3.25rem;
+    margin: 1.5rem auto;
+    background-color: #f4623a;
+    opacity: 1;
+}
+.divider1{
+   border-top: 3px solid black;
+    height: 0.2rem;
+    max-width: 3.25rem;
+    margin: 1.5rem auto;
+    background-color: #f4623a;
+    opacity: 1;
+}
+.you:hover{
+  background-color:rgba(244, 98, 58, 0.9);
+  transition: 0.7s ease-in-out;
+  color: white;
+}

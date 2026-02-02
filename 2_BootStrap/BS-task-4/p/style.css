@@ -1,0 +1,124 @@
+.button{
+    display: flex;
+    right: 0%;
+}
+#navbar{
+    background-color: blue;
+}
+ul li a{
+    color: black;
+}
+.masthead{
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url('assets/img/bg-masthead.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    width: 100%;
+    background-position: center center;
+}
+#offcanvase{
+    background-color:#1D809F;;
+    width:300px;
+}
+.page-section{
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+}
+#service{
+    background-color: #1D809f;
+}
+
+ .one{
+    font-size:50px;
+    padding: 40px;
+    background-color: white;
+    border-radius:50%;
+    color:#1D809F
+ }
+
+ .one:hover{
+    background-color: #1D809F;
+    color: azure;
+ }
+ .masthead1{
+    background-image: url('assets/img/bg-callout.jpg');
+    height:100vh;
+    width:100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 15rem;
+ }
+ .caption h2{
+    text-transform: uppercase;
+ }
+a{
+    text-decoration: none;
+}
+
+
+
+ 
+ .portfolio-item {
+  position: relative;
+  display: block;
+}
+
+.portfolio-item .caption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;                             
+  transition: opacity 0.25s ease;         
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+.caption-content{
+    opacity: 1;
+}
+
+.portfolio-item:hover{
+    transform: scale(0.7);
+    transition:0.9s ease-in-out;
+}
+
+
+.portfolio-item:hover .caption{
+  opacity: 1; 
+background-color: rgba(14, 83, 152, 0.8); 
+
+}
+#polio2{
+    background-color: #1D809f;
+}
+a{
+    text-decoration: none;
+}
+.icon a{
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 50%;
+    color: aliceblue;
+    transition: background-color 0.15s ease-in-out;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #1D809F;
+}
+
+.icon a:hover{
+    color:red;
+}
+
+*{
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#map iframe{
+    width: 100%;
+}
